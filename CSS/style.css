@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #032d60;
+}
+
+.navbar {
+    width: 100vw;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #032d75;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 9000;
+    background-color: white;
+}
+
+.logo {
+    width: 90px;
+    height: 75px;
+    align-content: center;
+    justify-items: center;
+}
+
+.logo img {
+    scale: 1;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: flex;
+}
+
+.nav ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav ul li a:hover {
+    color: #0d9dda;
+}
+
+.ask {
+    width: max-content;
+    height: 50px;
+    border: 3px solid #9050e9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ask a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.ask a div {
+    height: 30px;
+    width: fit-content;
+    justify-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ask a div img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact p {
+    font-weight: lighter;
+    font-size: 13px;
+    text-align: center;
+}
+
+.contact p a:hover {
+    color: #0d9dda;
+}
+
+.globe img {
+    width: 30px;
+    height: 30px;
+}
+
+.globe:hover {
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.login {
+    width: fit-content;
+    height: 50px;
+    justify-items: center;
+    align-content: center;
+}
+
+.login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login a div img {
+    width: 20px;
+    height: 20px;
+}
+
+.login:hover {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.login a div :hover {
+    color: #0d9dda;
+}
+
+.try a {
+    text-decoration: none;
+}
+
+.intry {
+    width: max-content;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    background-color: #2e844a;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.intry:hover {
+    background-color: #1c492b;
+}
+
+.titlebar {
+    width: 100vw;
+    height: 48px;
+    background-color: #002775;
+    margin-top: 96px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.titlebar p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.titlebar a{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+
+.titlebar a:hover {
+    text-decoration: none;
+}
+
+.salesforceCRM-bg {
+    width: 100vw;
+    height: 534px;
+    background: white;
+    position: relative;
+    padding: 64px 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.salesforceCRM-bg::before {
+    content: "";
+    position: absolute;
+    right: -15%;
+    top: 0;
+    width: 65%;
+    height: 100%;
+    
+
+    background: linear-gradient(135deg, #285ce1, #a983f6);
+    border-top-left-radius: 100% 0%;
+    border-bottom-left-radius: 70% 100%;
+    border-bottom-right-radius: 40% 30%;
+    z-index: -1;
+    
+}
+
+.salesforceCRM {
+
+    height: 410px;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.CRM {
+    
+    width: 50%;
+    height: 100%;
+    
+}
+
+.salesforceCRM-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.salesforceCRM-text .grow {
+    font-size: 45px;
+    font-weight: 900;
+}
+.salesforceCRM-text .grow span {
+    color: #0d9dda;
+}
+.salesforceCRM-text .start {
+  font-size: 20px;
+    font-weight: 600;
+}
+
+.try-n-watch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.try-n-watch a {
+    text-decoration: none;
+}
+
+.try-n-watch div {
+    width: fit-content;
+    padding: 15px 32px;
+    border-radius: 5px;
+    background-color: #0176d3;
+    border: none;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.try-n-watch a .tryfree:hover {
+    background-color: #032d60;
+}
+
+.try-n-watch a .watch {
+    background: transparent;
+    border: 3px solid #0176d3;
+    color: #0176d3;
+    height: 52px;
+}
+.try-n-watch a .watch:hover {
+    background: aliceblue;
+    color: #032d60;
+    border: 3px solid #032d60;
+}
+
+.salesforceCRM-video {
+    padding: 20px 0 0;
+}
+
+.salesforceCRM-video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.workforce {
+    
+    height: 352px;
+    margin: 24px auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.workforce-heading {
+    
+    font-size: 45px;
+    font-weight: 900;
+}
+.workforce-text {
+    
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+}
+.workforce-text p a {
+    text-decoration: none;
+    color: #0176d3;
+}
+.workforce-text p a:hover{
+    text-decoration: underline;
+    color: #032d60;
+}
+.explore-n-calc {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.explore-n-calc a {
+    text-decoration: none;
+}
+
+.explore-n-calc div {
+    width: fit-content;
+    padding: 15px 32px;
+    border-radius: 5px;
+    background-color: #0176d3;
+    border: none;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.explore-n-calc a .explore:hover {
+    background-color: #032d60;
+}
+
+.explore-n-calc a .calc {
+    background: transparent;
+    border: 3px solid #0176d3;
+    color: #0176d3;
+    height: 52px;
+}
+.explore-n-calc a .calc:hover {
+    background: aliceblue;
+    color: #032d60;
+    border: 3px solid #032d60;
+}
+
+.trusted-brands {
+    width: 100vw;
+    height: 192px;
+    /* background-color: orange; */
+}
+.trusted-brands-box {
+    /* background-color: greenyellow; */
+    margin: 0 35px;
+    padding: 24px 16px;
+}
+.trusted {
+    margin-bottom: 24px;
+}
+.trusted p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.marque {
+    height: 80px;
+}
+
+.marque marquee a img {
+    height: 80px;
+    margin-right: 40px;
+}
