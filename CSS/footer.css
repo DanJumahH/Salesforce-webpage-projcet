@@ -80,3 +80,34 @@ font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 .copyright a{color:#cfe6ff;text-decoration:underline}
 .address{color:#9fc6ee;font-size:12px}
 
+
+@media (max-width: 900px) {
+  .container,
+  .footer-grid {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    max-width: 100vw;
+    padding: 0 12px;
+  }
+  .link-col {
+    margin-bottom: 24px;
+  }
+  .right-bottom, .left-bottom {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-top, .footer-bottom {
+    padding: 16px 0;
+  }
+  .brand-col, .link-col {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .footer-grid {
+    gap: 16px;
+  }
+}
