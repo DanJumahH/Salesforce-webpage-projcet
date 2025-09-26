@@ -404,13 +404,55 @@
 }
 
 .marque {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    height: 80px;
+    background: transparent;
+}
+
+.marque-logos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 80px;
+    animation: scroll-logos 18s linear infinite;
+    will-change: transform;
+}
+
+.marque-logos img {
+    height: 80px;
+    display: block;
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 700px) {
+  .marque-logos {
+    gap: 16px;
+    height: 48px;
+    animation-duration: 28s;
+  }
+  .marque-logos img {
+    height: 40px;
+  }
+}
+
+/* .marque {
     height: 80px;
 }
 
 .marque marquee a img {
     height: 80px;
     margin-right: 40px;
-}
+} */
 
 .startsimply {
 
@@ -914,9 +956,10 @@
 }
 
 .trail-img a img {
-     height: 344px;
-     border-radius: 10px 10px 0 0;
+    height: 344px;
+    border-radius: 10px 10px 0 0;
 }
+
 .trail-text {
     height: 253px;
     display: flex;
@@ -933,14 +976,17 @@
     background-color: #eaf5fe;
     border-radius: 15px;
 }
+
 .trail-text .help {
     font-size: 25px;
     font-weight: bold;
-   
+
 }
+
 .trail-text .help a {
-     text-decoration: none;
+    text-decoration: none;
 }
+
 .trail-text .help a:hover {
     color: #0176d3;
 }
@@ -949,6 +995,7 @@
     font-size: 16px;
     font-weight: bold;
 }
+
 .trail-text .learn-f-free a:hover {
     text-decoration: none;
     color: #0176d3;
