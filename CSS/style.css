@@ -186,7 +186,7 @@
     font-weight: bold;
 }
 
-.titlebar a{
+.titlebar a {
     text-decoration: underline;
     color: white;
     font-weight: bold;
@@ -214,14 +214,14 @@
     top: 0;
     width: 65%;
     height: 100%;
-    
 
-    background: linear-gradient(135deg, #285ce1, #a983f6);
+
+    background: linear-gradient(140deg, #285ce1, #a983f6);
     border-top-left-radius: 100% 0%;
     border-bottom-left-radius: 70% 100%;
     border-bottom-right-radius: 40% 30%;
     z-index: -1;
-    
+
 }
 
 .salesforceCRM {
@@ -235,10 +235,10 @@
 }
 
 .CRM {
-    
+
     width: 50%;
     height: 100%;
-    
+
 }
 
 .salesforceCRM-text {
@@ -246,15 +246,18 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .salesforceCRM-text .grow {
     font-size: 45px;
     font-weight: 900;
 }
+
 .salesforceCRM-text .grow span {
     color: #0d9dda;
 }
+
 .salesforceCRM-text .start {
-  font-size: 20px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -278,6 +281,7 @@
     font-size: large;
     text-align: center;
 }
+
 .try-n-watch a .tryfree:hover {
     background-color: #032d60;
 }
@@ -288,6 +292,7 @@
     color: #0176d3;
     height: 52px;
 }
+
 .try-n-watch a .watch:hover {
     background: aliceblue;
     color: #032d60;
@@ -305,7 +310,7 @@
 }
 
 .workforce {
-    
+
     height: 352px;
     margin: 24px auto;
     width: 100vw;
@@ -317,26 +322,30 @@
 }
 
 .workforce-heading {
-    
+
     font-size: 45px;
     font-weight: 900;
 }
+
 .workforce-text {
-    
+
     font-size: 20px;
     font-weight: 400;
     width: 60%;
 }
+
 .workforce-text p a {
     text-decoration: none;
     color: #0176d3;
 }
-.workforce-text p a:hover{
+
+.workforce-text p a:hover {
     text-decoration: underline;
     color: #032d60;
 }
+
 .explore-n-calc {
-    
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -356,6 +365,7 @@
     font-size: large;
     text-align: center;
 }
+
 .explore-n-calc a .explore:hover {
     background-color: #032d60;
 }
@@ -366,6 +376,7 @@
     color: #0176d3;
     height: 52px;
 }
+
 .explore-n-calc a .calc:hover {
     background: aliceblue;
     color: #032d60;
@@ -375,20 +386,23 @@
 .trusted-brands {
     width: 100vw;
     height: 192px;
-    /* background-color: orange; */
 }
+
 .trusted-brands-box {
     /* background-color: greenyellow; */
     margin: 0 35px;
     padding: 24px 16px;
 }
+
 .trusted {
     margin-bottom: 24px;
 }
+
 .trusted p {
     font-size: x-large;
     font-weight: bolder;
 }
+
 .marque {
     height: 80px;
 }
@@ -396,4 +410,575 @@
 .marque marquee a img {
     height: 80px;
     margin-right: 40px;
+}
+
+.startsimply {
+
+    width: 100vw;
+    height: 884px;
+}
+
+.startsimply .simply {
+
+    height: 176px;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.startsimply .simply p {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.resultbox {
+    padding: 24px 48px;
+    display: flex;
+    gap: 32px;
+}
+
+.result {
+
+    height: 660px;
+    width: 612px;
+}
+
+.resultvid video {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.see-result {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 48px;
+}
+
+.see-result .head-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.see-result .body-text {
+    font-size: 18px;
+}
+
+.see-result .body-text a {
+    color: #0b5cbe;
+    font-size: 20px;
+}
+
+.see-result .body-text a:hover {
+    text-decoration: none;
+    color: #032d60;
+}
+
+.see-result .body-text span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result-text .try-n-watch {
+    margin-bottom: 48px;
+}
+
+.lead {
+    height: 310px;
+
+    padding: 2px 25px 0 0;
+    border-left: 2px solid #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lead .contact {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lead .contact:hover {
+    border-left: 4px solid #0b5cbe;
+    padding-left: 25px;
+    color: #0b5cbe;
+}
+
+.CRM-agents {
+    width: 100vw;
+    padding: 64px 48px 0;
+}
+
+.CRM-agents .heading {
+    margin: 26px 100px 64px;
+    text-align: center;
+}
+
+.CRM-agents .heading p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.CRM-agents-apps-analytics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 35px;
+}
+
+.CRM-agents-apps-analytics .agentforce {
+    background-color: white;
+    width: 288px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px #dadadad8;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.CRM-agents-apps-analytics .agentforce::before {
+    content: "";
+    position: absolute;
+    right: -5%;
+    bottom: -5%;
+    width: 50%;
+    height: 45%;
+
+    background: linear-gradient(140deg, #7526e3, #af9aeb);
+    border-top-left-radius: 700% 700%;
+    border-top-right-radius: 100% 0%;
+    border-bottom-left-radius: 100% 0%;
+    border-bottom-right-radius: 100% 0%;
+    z-index: -1;
+}
+
+.agentforce .analytics {
+    width: 78%;
+    height: 124px;
+}
+
+.agentforce .apps {
+    margin: 40px 32px 12px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.agentforce .apps a {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.agentforce .apps a:hover {
+    color: #0b5cbe;
+}
+
+.agentforce .explore {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    padding: 0 32px;
+}
+
+.explore .explore-text {
+    width: 130px;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.explore .explore-text a:hover {
+    color: #0b5cbe;
+    text-decoration: none;
+}
+
+.explore .explore-icon {
+    width: 88px;
+    height: 88px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: -5px -5px 15px #dadadad8;
+}
+
+.explore .explore-icon img {
+    scale: 0.5;
+}
+
+.CRM-agents-apps-analytics .Small-Business::before {
+    background: linear-gradient(140deg, #0d9cd9, #80c8e7);
+}
+
+.CRM-agents-apps-analytics .Sales::before {
+    background: linear-gradient(140deg, #06a499, #69c4c5);
+}
+
+.CRM-agents-apps-analytics .Service::before {
+    background: linear-gradient(140deg, #b50554, #c26094, #c26094);
+}
+
+.CRM-agents-apps-analytics .Marketing::before {
+    background: linear-gradient(140deg, #dd7a01, #d9ba8c);
+}
+
+.CRM-agents-apps-analytics .Commerce::before {
+    background: linear-gradient(140deg, #41b658, #98d3b3);
+}
+
+.CRM-agents-apps-analytics .AI::before {
+    background: linear-gradient(140deg, #0b5cab, #85b0d4);
+}
+
+.CRM-agents-apps-analytics .Data-Cloud::before {
+    background: linear-gradient(140deg, #5867e8, #a0b1eb);
+}
+
+.CRM-agents-apps-analytics .Platform::before {
+    background: linear-gradient(140deg, #5867e8, #a2b4eb);
+}
+
+.CRM-agents-apps-analytics .Slack::before {
+    background: linear-gradient(140deg, #6a2872, #aca0c1);
+}
+
+.CRM-agents-apps-analytics .tableau::before {
+    background: linear-gradient(140deg, #ff784f, #e6b8ac);
+}
+
+.CRM-agents-apps-analytics .MuleSoft::before {
+    background: linear-gradient(140deg, #0b5cab, #8ab3d4);
+}
+
+.CRM-agents-apps-analytics .Heroku::before {
+    background: linear-gradient(140deg, #7526e2, #af9ee9);
+}
+
+.CRM-agents-apps-analytics .Success-n-Services::before {
+    background: linear-gradient(140deg, #0d9dda, #85c9e6);
+}
+
+
+.pricing a .price {
+    width: fit-content;
+    background: transparent;
+    border: 3px solid #0176d3;
+    color: #0176d3;
+    height: 52px;
+    margin: 60px 530px 0;
+    padding: 15px 32px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.pricing a {
+    text-decoration: none;
+}
+
+.pricing a .price:hover {
+    background: aliceblue;
+    color: #032d60;
+    border: 3px solid #032d60;
+}
+
+.solution {
+    height: 950px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.solution::before {
+    content: "";
+    position: absolute;
+    right: -30%;
+    bottom: 0;
+    width: 80%;
+    height: 20%;
+
+    background: url(../IMG/bga.jpeg) no-repeat;
+    border-top-left-radius: 700% 700%;
+    border-top-right-radius: 100% 0%;
+    border-bottom-left-radius: 100% 0%;
+    border-bottom-right-radius: 100% 0%;
+    z-index: -1;
+}
+
+.CRM-agents-apps-analytics .services::before {
+    background: linear-gradient(140deg, #7526e3, #a587e9);
+}
+
+.industries a .industry {
+    width: fit-content;
+    background: transparent;
+    border: 3px solid #0176d3;
+    color: #0176d3;
+    height: 52px;
+    margin: 60px 520px 0;
+    padding: 15px 32px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.industries a {
+    text-decoration: none;
+}
+
+.industries a .industry:hover {
+    background: aliceblue;
+    color: #032d60;
+    border: 3px solid #032d60;
+}
+
+/* .sale-agent {
+
+    height: 980px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sale-agent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 30%;
+
+    background: url(../IMG/bgb.jpeg) no-repeat;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 100% 100%;
+    border-bottom-left-radius: 100% 100%;
+    border-bottom-right-radius: 100% 100%;
+    z-index: -1;
+}
+
+.what-is-sales {
+    height: 340px;
+    width: 100vw;
+    padding: 64px 48px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-is-sales .sales {
+    width: 612px;
+    height: 252px;
+
+}
+
+.what-is-sales .sales-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sales-text .heading {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.sales-text .text {
+    font-size: 19px;
+}
+
+.sales-text .text a {
+    color: #0b5cbe;
+    font-size: 20px;
+}
+
+.sales-text .text a:hover {
+    text-decoration: none;
+    color: #032d60;
+}
+
+.what-is-sales .sales-vid video {
+    width: 612px;
+    height: 252px;
+    border-radius: 10px;
+}
+
+.agentic {
+    height: 416px;
+    padding: 64px 48px;
+}
+
+.agentic .sales {
+    width: 612px;
+    height: 288px;
+}
+
+.agentic .sales-vid video {
+    width: 612px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.agentic .sales-text {
+    justify-content: space-between;
+} */
+
+.makeeasy {
+    height: 700px;
+
+}
+
+.makeeasy .running {
+    width: 612px;
+    height: 476px;
+
+}
+
+.makeeasy .getup {
+    justify-content: space-between;
+
+}
+
+.makeeasy .lead {
+    height: 230px;
+    padding: 0 25px;
+}
+
+/* .integrate {
+    background-color: white;
+    height: 794px;
+    width: 100vw;
+ position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.integrate::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    height: 50%;
+
+    background: url(../IMG/bgc.jpeg) no-repeat;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 100% 100%;
+    border-bottom-left-radius: 100% 100%;
+    border-bottom-right-radius: 100% 100%;
+    z-index: -1;
+} */
+
+.learn {
+    height: 148px;
+    margin: 24px 0;
+    padding: 0 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.learngrow p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.trailsales {
+    height: 597px;
+    margin-top: 24px 0;
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailsales .trails {
+    width: 612px;
+    height: 597px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -5px -2px 20px #dadadad8;
+}
+
+.trail-img a img {
+     height: 344px;
+     border-radius: 10px 10px 0 0;
+}
+.trail-text {
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.trailhead {
+    width: fit-content;
+    padding: 3px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #eaf5fe;
+    border-radius: 15px;
+}
+.trail-text .help {
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+.trail-text .help a {
+     text-decoration: none;
+}
+.trail-text .help a:hover {
+    color: #0176d3;
+}
+
+.trail-text .learn-f-free a {
+    font-size: 16px;
+    font-weight: bold;
+}
+.trail-text .learn-f-free a:hover {
+    text-decoration: none;
+    color: #0176d3;
+}
+
+.exchangecommunity {
+    margin: 48px 0 24px;
+}
+
+.get-started {
+    height: 300px;
+    width: 100vw;
+    margin: 48px 0;
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started p {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bgdown {
+    background: url(../IMG/bgdown.jpeg) no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 100vw;
+    overflow: hidden;
 }
